@@ -1,0 +1,50 @@
+body {
+    margin: 0%;
+    background-color: rgb(252, 248, 232); /*cream*/
+}
+
+h1 {
+    background-color:rgb(212, 226, 212); /*lightsage*/
+    font-family: 'Vidaloka', serif; 
+   color: rgb(223, 120, 97); /*darkmelon*/
+   text-align: center;
+   font-size: 60px;
+   padding: 2%;
+}
+
+p {
+    background-color:rgb(236, 179, 144); /*lightmelon*/
+    font-family: 'Quicksand', sans-serif;
+    color:black;
+    text-align: center;
+    font-size: 25px;
+}
+
+footer {
+    background-color: rgb(212, 226, 212);
+    font-family: 'Quicksand', sans-serif;
+    padding: 2%;
+    text-align: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.button {
+    background-color:rgb(212, 226, 212);
+    padding: 15px 32px;
+    color: rgb(223, 120, 97);
+    border-color: rgb(223, 120, 97);
+    font-family: "Vidaloka", serif;
+    font-size: 20px;
+}
+
+.button:hover {
+    background-color: rgb(223, 120, 97);
+    color:rgb(212, 226, 212);;
+    border-color:rgb(212, 226, 212); ;
+}
