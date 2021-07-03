@@ -33,23 +33,23 @@
     <div class="jumbotron p-3 mb-2 bg-success">
         <h1>Their Home Away From Home</h1>
         <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tellus purus, rutrum eu ultrices eu, aliquam in nibh. Fusce imperdiet arcu nisl, nec egestas justo imperdiet ac. Donec sollicitudin ante a felis faucibus varius non sit amet erat. Pellentesque varius efficitur volutpat.</p>
-        <p><a href="https://www.tutorialrepublic.com" target="_blank" class="btn btn-warning btn-lg">Get started today</a></p>
+        <p><a href="" target="_blank" class="btn btn-warning btn-lg">Become a Member now!</a></p>
     </div>  
     <div class="row">
         <div class="col-md-4">
             <h2>Overnight Care</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tellus purus, rutrum eu ultrices eu, aliquam in nibh. Fusce imperdiet arcu nisl, nec egestas justo imperdiet ac. Donec sollicitudin ante a felis faucibus varius non sit amet erat. Pellentesque varius efficitur volutpat.</p>
-            <p><a href="https://www.tutorialrepublic.com/html-tutorial/" target="_blank" class="btn btn-warning">Learn More »</a></p>
+            <p><a href="" target="_blank" class="btn btn-warning">Learn More »</a></p>
         </div>
         <div class="col-md-4">
             <h2>Grooming</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tellus purus, rutrum eu ultrices eu, aliquam in nibh. Fusce imperdiet arcu nisl, nec egestas justo imperdiet ac. Donec sollicitudin ante a felis faucibus varius non sit amet erat. Pellentesque varius efficitur volutpat.</p>
-            <p><a href="https://www.tutorialrepublic.com/css-tutorial/" target="_blank" class="btn btn-warning">Learn More »</a></p>
+            <p><a href="" target="_blank" class="btn btn-warning">Learn More »</a></p>
         </div>
         <div class="col-md-4">
             <h2>Veterinary Care</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tellus purus, rutrum eu ultrices eu, aliquam in nibh. Fusce imperdiet arcu nisl, nec egestas justo imperdiet ac. Donec sollicitudin ante a felis faucibus varius non sit amet erat. Pellentesque varius efficitur volutpat.</p>
-            <p><a href="https://www.tutorialrepublic.com/twitter-bootstrap-tutorial/" target="_blank" class="btn btn-warning">Learn More »</a></p>
+            <p><a href="" target="_blank" class="btn btn-warning">Learn More »</a></p>
         </div>
     </div>
     <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
@@ -63,24 +63,51 @@
           <div class="carousel-item">
             <img src="img/rabbit_carrots.jpg" class="d-block w-100" alt="Rabbit with carrots">
           </div>
+          <div class="carousel-item">
+            <img src="img/white_rabbit.jpg" class="d-block w-100" alt="White rabbit">
+          </div>
+          <div class="carousel-item">
+            <img src="img/lop_rabbit.jpg" class="d-block w-100" alt="Single lopped rabbit">
+          </div>
+          <div class="carousel-item">
+            <img src="img/two_rabbits.jpg" class="d-block w-100" alt="Two rabbits">
+          </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <button class="carousel-control-prev" type="button" data-target="#carouselExampleFade" data-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-target="#carouselExampleFade" data-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
       </div>
       <hr>
       <form>
-        <div class="form-row">
-          <div class="col">
-            <input type="text" class="form-control" placeholder="First name">
+        <div class="form-row align-items-center">
+          <div class="col-auto">
+            <label class="sr-only" for="inlineFormInput">Name</label>
+            <input type="text" class="form-control mb-2" id="inlineFormInput" placeholder="Jane Doe">
           </div>
-          <div class="col">
-            <input type="text" class="form-control" placeholder="Phone Number">
+          <div class="col-auto">
+            <label class="sr-only" for="inlineFormInputGroup">Username</label>
+            <div class="input-group mb-2">
+              <div class="input-group-prepend">
+                <div class="input-group-text">@</div>
+              </div>
+              <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Username">
+            </div>
+          </div>
+          <div class="col-auto">
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="checkbox" id="autoSizingCheck">
+              <label class="form-check-label" for="autoSizingCheck">
+                Remember me
+              </label>
+            </div>
+          </div>
+          <div class="col-auto">
+            <button type="submit" class="btn btn-warning mb-2">Submit</button>
           </div>
         </div>
       </form>
